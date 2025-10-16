@@ -1,0 +1,21 @@
+{
+  "name": "javascript-",
+  "version": "1.0.0",
+  "description": "",
+"scripts": {
+  "start": "node prueba.js",
+  "test": "echo \"No hay pruebas definidas\" && exit 0"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johanvasquezdev/javascript-.git"
+  },
+  "keywords": [],
+  "author": "Johan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johanvasquezdev/javascript-/issues"
+  },
+  "homepage": "https://github.com/Johanvasquezdev/javascript-#readme"
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
 "scripts": {
-  "start": "node prueba.js",
+  "start": "node ejercicios.js",
   "test": "echo \"No hay pruebas definidas\" && exit 0"
 },
 

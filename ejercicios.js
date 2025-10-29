@@ -1,5 +1,5 @@
 
-// Ejercicio 1
+// Ejercicio 1 convertidor de nota
 function convertidorNota(nota) {
   if (nota >= 90) {
     return 'A';
@@ -15,19 +15,20 @@ function convertidorNota(nota) {
 }
 
 console.log("Ejercicio 1: Notas");
-console.log(`Un 95 es: ${convertidorNota(95)}`);
-console.log(`Un 83 es: ${convertidorNota(73)}`);
-console.log(`Un 40 es: ${convertidorNota(40)}`);
+console.log(`Un 95 es una: ${convertidorNota(95)}`);
+console.log(`Un 83 es una: ${convertidorNota(73)}`);
+console.log(`Un 40 es una: ${convertidorNota(40)}`);
 
 
-// Ejercicio 2
+// Ejercicio 2 peliculas sin shrek
 const peliculas = [
   "El Padrino",
   "Hobbit",
   "Interestelar",
   "The Avengers",
   "El Señor de los Anillos",
-  "Shrek 3"
+  "Shrek 3",
+  "John Wick"
 ];
 
 console.log("Ejercicio 2: Películas");
@@ -43,7 +44,7 @@ for (const pelicula of peliculas) {
 
 
 
-// Ejercicio 3
+// Ejercicio 3 calculadora de 2 numeros
 function calcular(num1, num2, operador) {
   switch (operador) {
     case '+':
